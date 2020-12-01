@@ -1,0 +1,77 @@
+/* Color Theme Swatches in Hex */
+.color-1 { color: #C004D9; }
+.color-2 { color: #AB05F2; }
+.color-2A { color: #7607a5; }
+.color-3 { color: #5A13F2; }
+.color-4 { color: #2745F2; }
+.color-5 { color: #138AF2; }
+
+/* Color Theme Swatches in Hex */
+.color-6 { color: #DBBFFF; }
+.color-7 { color: #AEE3E8; }
+.color-8 { color: #E3FFCD; }
+.color-9 { color: #F5E2BF; }
+.color-10 { color: #FFBFCC; }
+
+.background-1 { background-color: #C004D9; }
+.background-2 { background-color: #AB05F2; }
+.background-2A { background-color: #9008ca; }
+.background-3 { background-color: #5A13F2; }
+.background-4 { background-color: #2745F2; }
+.background-5 { background-color: #138AF2; }
+
+.background-6 { background-color: #DBBFFF; }
+.background-7 { background-color: #AEE3E8; }
+.background-8 { background-color: #E3FFCD; }
+.background-9 { background-color: #F5E2BF; }
+.background-10 { background-color: #FFBFCC;}
+
+body{
+    background-color: #DBBFFF;
+}
+
+/* navbar */
+a{
+    font-family: 'Texturina', serif;
+    font-size: larger;
+}
+a:hover{
+    color:  #FFBFCC;
+}
+
+/* Hedaer */
+h1{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+/* Carrusel */
+/* Clase con herencia */
+.carousel img{
+    height: 70vh;
+}
+
+/* Sustituye la fechita por la estrellita */
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-image: url("https://www.flaticon.es/svg/static/icons/svg/118/118669.svg");
+    height: 30px;
+}
+
+
+/* main */
+.derechos{
+    width: 500px;
+    height: 50vh;
+}
+
+.lista{
+    list-style: lower-greek;
+}
+
+/* footer */
+footer{
+    height: 30vh;
+}
+
+
+
+
