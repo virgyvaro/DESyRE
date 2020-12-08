@@ -61,29 +61,40 @@
             <a class="nav-link color-8" href="#">Tus Derechos</a>
           </li>
         </ul>
-        <div class="row">
-          <form class="form-inline">
-            <input
-              class="form-control"
-              type="search"
-              placeholder="Search"
-              aria-label="Búsqueda"
-            />
-            <div>
-              <button class="btn btn-primary" type="submit">Búsqueda</button>
+
+        <form class="form-inline">
+          <div class="row">
+            <div class="col-8 m-0">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Búsqueda"
+                aria-label="Search"
+              />
             </div>
-          </form>
-        </div>
+            <div class="col-4 m-0">
+              <button class="btn btn-outline-info margen" type="submit">
+                Search
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </nav>
 
     <!-- Header -->
     <div class="jumbotron jumbotron-fluid background-9">
-      <div class="container">
-        <div class="col-sm-12 col-md-6">
-          <h1 class="display-3 color-2A col-12">
+      <div class="container titulo mt-3 mb-3">
+        <div class="col-12">
+          <h1 class="display-3 color-2A text-center">
             Tu cuerpo, tu salud, tus decisiones.
           </h1>
+          <p class="col-6 text-center mt-4 ml-auto mr-auto color-3">
+            Los derechos sexuales y reproductivos son derechos humanos
+            fundamentales. Para las mujeres, especialmente, son garantía de
+            poder decidir por sí mismas, lo cual históricamente y en diversas
+            culturas se les ha negado.
+          </p>
         </div>
       </div>
     </div>
@@ -138,29 +149,64 @@
       <div class="container mt-5">
         <div class="row">
           <div class="col-6">
-            <h3>Algunos de tus derechos son:</h3>
+            <h3>Tus derechos son:</h3>
             <ul>
-              <li class="lista">
-                Derecho a recibir información clara, oportuna y científica
-                acerca de la sexualidad.
+              <li class="li">
+                <!-- Para poner iconos desde https://fontawesome.com/icons -->
+                <!-- <i class="fas fa-long-arrow-alt-right"></i> -->
+                Derecho a decidir de forma libre, autónoma e informada sobre mi
+                cuerpo y mi sexualidad.
               </li>
-              <li class="lista">Respeto a la opción de la reproducción.</li>
-              <li class="lista">
-                Derecho a la integridad física, psíquica y social.
+              <li class="li">
+                Derecho a ejercer y disfrutar plenamente mi vida sexual.
+              </li>
+              <li class="li">
+                Derecho a manifestar públicamente mis afectos.
+              </li>
+              <li class="li">
+                Derecho a decidir con quién o quiénes relacionarme afectiva,
+                erótica y sexualmente.
+              </li>
+              <li class="li">
+                Derecho a que se respete mi privacidad y a que se resguarde mi
+                información personal.
+              </li>
+              <li class="li">
+                Derecho a la vida, a la integridad física, psicológica y sexual.
+              </li>
+              <li class="li">
+                Derecho a decidir de manera libre e informada sobre mi vida
+                reproductiva.
+              </li>
+              <li class="li">Derecho a la igualdad.</li>
+              <li class="li">Derecho a vivir libre de discriminación.</li>
+              <li class="li">
+                Derecho a la información actualizada, veraz, completa,
+                científica y laica sobre sexualidad.
+              </li>
+              <li class="li">
+                Derecho a la educación integral en sexualidad.
+              </li>
+              <li class="li">
+                Derecho a los servicios de salud sexual y reproductiva.
+              </li>
+              <li class="li">Derecho a la identidad sexual.</li>
+              <li class="li">
+                Derecho a la participación en las políticas públicas sobre
+                sexualidad y reproducción.
               </li>
             </ul>
           </div>
-          <p class="col-6 text-justify mt-2">
-            Los derechos sexuales y reproductivos son derechos humanos
-            fundamentales. Para las mujeres, especialmente, son garantía de
-            poder decidir por sí mismas, lo cual históricamente y en diversas
-            culturas se les ha negado.
-          </p>
-          <img
-            src="https://conlaa.com/wp-content/uploads/2020/03/sexualidad6801.png"
-            class="derechos ml-5"
-            alt="derechos"
-          />
+          <div class="text-center col-6">
+            <img
+              src="https://conlaa.com/wp-content/uploads/2020/03/sexualidad6801.png"
+              class="derechos"
+              alt="derechos"
+            />
+            <figcaption class="mt-2">
+              Fig.1 Conocer tus derechos es tener derecho a decidir.
+            </figcaption>
+          </div>
         </div>
       </div>
     </main>
@@ -177,25 +223,25 @@
           </div>
 
           <div class="col-md-4 col-sm-12">
-            <h5 class="color-10">Contacto</h5>
+            <h5 class="color-7">Contacto</h5>
             <span>
-              <i class="fas fa-map-marked-alt color-8" aria-hidden="true">
+              <i class="fas fa-map-marked-alt color-10" aria-hidden="true">
                 Pte. 116 S/N Esq. Norte 5-A
               </i>
             </span>
           </div>
 
           <div class="col-md-4 col-sm-12">
-            <h5 class="color-10">Redes Sociales</h5>
+            <h5 class="color-7">Redes Sociales</h5>
             <span>
-              <i class="fab fa-facebook-square color-8" aria-hidden="true">
+              <i class="fab fa-facebook-square color-10" aria-hidden="true">
                 DESyRE
               </i>
             </span>
 
             <div>
               <span>
-                <i class="fab fa-instagram color-8" aria-hidden="true">
+                <i class="fab fa-instagram color-10" aria-hidden="true">
                   DESyRE
                 </i>
               </span>
@@ -203,13 +249,15 @@
 
             <div>
               <span>
-                <i class="fab fa-whatsapp color-8" aria-hidden="true">
+                <i class="fab fa-whatsapp color-10" aria-hidden="true">
                   55-21-80-66-71
                 </i>
               </span>
             </div>
           </div>
-          <span class="color-5"> VAROVI© Copyright 2020 Todos los Derechos Reservados.</span>
+          <span class="color-5">
+            VAROVI© Copyright 2020 Todos los Derechos Reservados.</span
+          >
         </div>
       </div>
     </footer>

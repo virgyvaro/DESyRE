@@ -4,11 +4,11 @@
 .color-2A { color: #7607a5; }
 .color-3 { color: #5A13F2; }
 .color-4 { color: #2745F2; }
-.color-5 { color: #138AF2; }
+.color-5 { color: #f3ebf2; }
 
 /* Color Theme Swatches in Hex */
 .color-6 { color: #DBBFFF; }
-.color-7 { color: #AEE3E8; }
+.color-7 { color: #55d2dd; }
 .color-8 { color: #E3FFCD; }
 .color-9 { color: #F5E2BF; }
 .color-10 { color: #FFBFCC; }
@@ -33,15 +33,27 @@ body{
 /* navbar */
 a{
     font-family: 'Texturina', serif;
-    font-size: larger;
+    font-size: 22px;
 }
 a:hover{
-    color:  #FFBFCC;
+    color: #FFBFCC;
+    font-size: 30px;
+}
+
+.margen{
+    margin-left: -20px;
 }
 
 /* Hedaer */
 h1{
     font-family: 'Sansita Swashed', cursive;
+    text-shadow: 3px 3px 3px #FFBFCC;
+}
+
+.titulo{
+    height: 33vh;
+    font-size: 17px;
+    font-style: italic;
 }
 
 /* Carrusel */
@@ -60,11 +72,23 @@ h1{
 /* main */
 .derechos{
     width: 500px;
-    height: 50vh;
+    height: 500px;
+    border: 4px solid #2745F2;
+    border-radius: 30px;
+    opacity: .6;
+    transition: all .5s;
 }
 
-.lista{
-    list-style: lower-greek;
+.derechos:hover{
+    opacity: 1;
+}
+
+.li{
+    list-style: none;
+}
+
+.li::before{
+    content: "☙";
 }
 
 /* footer */
